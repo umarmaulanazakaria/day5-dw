@@ -1,0 +1,15 @@
+{
+  "name": "student-data-dashboard-typescript",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Student Data Dashboard menggunakan HTML, CSS, dan TypeScript.",
+  "scripts": {
+    "check": "tsc --noEmit",
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "test": "npm run check && npm run build"
+  },
+  "devDependencies": {
+    "typescript": "5.8.3"
+  }
+}
